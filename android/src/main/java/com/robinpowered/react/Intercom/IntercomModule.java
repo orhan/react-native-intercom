@@ -110,7 +110,7 @@ public class IntercomModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void displayConversationList(Callback callback) {
+    public void displayConversationsList(Callback callback) {
         Intercom.client().displayConversationsList();
         callback.invoke(null, null);
     }
